@@ -51,7 +51,7 @@ nav{
   margin-top: 0px;
   background-color: rgb(97, 94, 90);
   width: 400px;
-  height: 600px;
+  height: 700px;
   padding-top: 10px;
   float: left;
   color:whitesmoke;
@@ -81,7 +81,7 @@ nav{
   margin-top: 60px;
 
   width: 813px;
-  height: 600px;
+  height: 700px;
   padding-top: 10px;
   
 }
@@ -117,6 +117,12 @@ nav{
 .year{
   align-items: center;
 }
+
+.my_projects{
+  display: flex;
+  justify-content: center;
+}
+
 .footer{
   display: flex;
   justify-content: space-between;
