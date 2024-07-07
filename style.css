@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  }
+
+  .container{
+  max-width: 1440px;
+  margin: 0 auto;
+  }
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+  
+}
+
+nav{
+  background-color: rgb(255, 255, 255);
+  
+  transition: 0.3s;
+  list-style: none;
+  display: flex;
+  justify-content:end;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+
+
+.inline{
+  display: inline-block; 
+  margin-right: 120px; 
+  vertical-align: top;
+  font-size: 20px;
+  
+  
+
+}
+
+.aside{
+  margin-left: 20px;
+  margin-top: 0px;
+  background-color: rgb(97, 94, 90);
+  width: 400px;
+  height: 700px;
+  padding-top: 10px;
+  float: left;
+  color:whitesmoke;
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+
+}
+.skills{
+  display: flex;
+  justify-content: center;
+}
+.education{
+  display: flex;
+  justify-content: center;
+}
+
+.english{
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+  background-color: rgb(255, 255, 255);
+  margin-left: 500px;
+  margin-top: 60px;
+
+  width: 813px;
+  height: 700px;
+  padding-top: 10px;
+  
+}
+
+.name{
+  display: flex;
+  justify-content: center;
+}
+.about{
+  display: flex;
+  justify-content: center;
+}
+.aboutMe{
+  font-style: italic;
+}
+.myimg{
+  display: flex;
+  justify-content: center;
+}
+
+.code{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  background-color: rgb(148, 146, 146);
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 60px;
+  padding-top: 5px;
+}
+.year{
+  align-items: center;
+}
+
+.my_projects{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
