@@ -26,12 +26,14 @@ body{
 }
 
 nav{
-  background-color: rgb(255, 255, 255);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 20px;
+  background-color: rgb(222, 65, 65);
+  
   transition: 0.3s;
   list-style: none;
+  display: flex;
+  justify-content:end;
+  margin-left: 20px;
+  margin-right: 20px;
   }
   
 
